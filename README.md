@@ -1,0 +1,2 @@
+# MysteryPlanet
+An educational geography detective game with interactive maps, daily challenges, progressive clues, a discovery passport and optional Mapillary street imagery. Built with HTML, CSS, JavaScript and Node.js; ready for Render.
