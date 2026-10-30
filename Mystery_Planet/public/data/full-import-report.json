@@ -1,0 +1,15 @@
+{
+  "snapshot_sha256": "61c8d059333d071369eea5b2850d7893ce8dc08b392e26680a18dc53b73b5e65",
+  "source_lines": 13483471,
+  "imported": {
+    "city": 5234733,
+    "region": 543709
+  },
+  "unresolved_parent_links": 112540,
+  "source": "GeoNames allCountries",
+  "license": "CC BY 4.0",
+  "no_population_threshold": true,
+  "complete_source_snapshot_import": true,
+  "universal_world_completeness": false,
+  "parent_policy": "Exact uncompressed source path; a unique current ADM record only. Missing and ambiguous links stay unresolved."
+}

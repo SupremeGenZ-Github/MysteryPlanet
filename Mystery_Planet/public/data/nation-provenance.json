@@ -1,0 +1,936 @@
+{
+  "admin1": {
+    "source": "https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/",
+    "license": "Public domain",
+    "sha256": "22d0e3ad85eb3e27f17cabf8ba2d50e554fbc27a87796ff891d958185da62fb5",
+    "countries": {
+      "ARG": 24,
+      "URY": 19,
+      "IDN": 33,
+      "MYS": 16,
+      "CHL": 16,
+      "BOL": 9,
+      "PER": 26,
+      "ESB": 1,
+      "CYP": 5,
+      "IND": 36,
+      "CHN": 32,
+      "ISR": 6,
+      "PSX": 2,
+      "LBN": 6,
+      "ETH": 11,
+      "SDS": 10,
+      "SOM": 13,
+      "KEN": 8,
+      "MWI": 28,
+      "TZA": 30,
+      "SYR": 15,
+      "SOL": 1,
+      "FRA": 101,
+      "SUR": 10,
+      "GUY": 10,
+      "KOR": 17,
+      "PRK": 11,
+      "MAR": 16,
+      "SAH": 1,
+      "CRI": 7,
+      "NIC": 17,
+      "COG": 12,
+      "COD": 11,
+      "BTN": 20,
+      "UKR": 25,
+      "BLR": 7,
+      "NAM": 13,
+      "ZAF": 9,
+      "MAF": 1,
+      "SXM": 1,
+      "ARE": 9,
+      "OMN": 11,
+      "UZB": 14,
+      "KAZ": 16,
+      "TJK": 5,
+      "LTU": 10,
+      "BRA": 27,
+      "MNG": 22,
+      "RUS": 83,
+      "CZE": 14,
+      "DEU": 16,
+      "EST": 15,
+      "LVA": 119,
+      "NOR": 21,
+      "SWE": 21,
+      "FIN": 18,
+      "VNM": 63,
+      "KHM": 24,
+      "LUX": 3,
+      "BEL": 11,
+      "GEO": 12,
+      "MKD": 84,
+      "ALB": 12,
+      "AZE": 78,
+      "KOS": 30,
+      "TUR": 81,
+      "ESP": 52,
+      "LAO": 17,
+      "KGZ": 8,
+      "ARM": 11,
+      "DNK": 5,
+      "LBY": 22,
+      "TUN": 23,
+      "ROU": 42,
+      "HUN": 43,
+      "SVK": 8,
+      "POL": 16,
+      "IRL": 34,
+      "GBR": 232,
+      "GRC": 14,
+      "ZMB": 10,
+      "SLE": 4,
+      "GIN": 34,
+      "LBR": 15,
+      "CAF": 17,
+      "SDN": 17,
+      "DJI": 6,
+      "ERI": 6,
+      "AUT": 9,
+      "IRQ": 18,
+      "ITA": 110,
+      "CHE": 26,
+      "IRN": 31,
+      "NLD": 15,
+      "LIE": 11,
+      "CIV": 19,
+      "SRB": 25,
+      "MLI": 9,
+      "SEN": 14,
+      "NGA": 37,
+      "BEN": 12,
+      "AGO": 18,
+      "HRV": 21,
+      "SVN": 193,
+      "QAT": 7,
+      "SAU": 13,
+      "BWA": 15,
+      "ZWE": 10,
+      "PAK": 8,
+      "BGR": 28,
+      "THA": 77,
+      "SMR": 9,
+      "HTI": 10,
+      "DOM": 32,
+      "TCD": 22,
+      "KWT": 6,
+      "SLV": 14,
+      "GTM": 22,
+      "TLS": 13,
+      "BRN": 4,
+      "MCO": 1,
+      "DZA": 48,
+      "MOZ": 11,
+      "SWZ": 4,
+      "BDI": 17,
+      "RWA": 5,
+      "MMR": 14,
+      "BGD": 7,
+      "AND": 7,
+      "AFG": 34,
+      "MNE": 21,
+      "BIH": 18,
+      "UGA": 112,
+      "USG": 1,
+      "CUB": 16,
+      "HND": 18,
+      "ECU": 24,
+      "COL": 33,
+      "PRY": 18,
+      "PRT": 20,
+      "MDA": 40,
+      "TKM": 5,
+      "JOR": 12,
+      "NPL": 14,
+      "LSO": 10,
+      "CMR": 10,
+      "GAB": 9,
+      "NER": 8,
+      "BFA": 45,
+      "TGO": 5,
+      "GHA": 10,
+      "GNB": 9,
+      "GIB": 1,
+      "USA": 51,
+      "CAN": 13,
+      "MEX": 32,
+      "BLZ": 6,
+      "PAN": 12,
+      "VEN": 25,
+      "PNG": 20,
+      "EGY": 27,
+      "YEM": 21,
+      "MRT": 13,
+      "GNQ": 7,
+      "GMB": 6,
+      "HKG": 18,
+      "VAT": 1,
+      "CYN": 1,
+      "KAS": 1,
+      "KAB": 1,
+      "WSB": 1,
+      "ATA": 1,
+      "NZL": 24,
+      "NCL": 3,
+      "AUS": 11,
+      "MDG": 22,
+      "PHL": 118,
+      "LKA": 25,
+      "CUW": 1,
+      "ABW": 1,
+      "BHS": 30,
+      "TCA": 6,
+      "TWN": 21,
+      "JPN": 47,
+      "SPM": 2,
+      "ISL": 9,
+      "GRL": 6,
+      "PCN": 1,
+      "PYF": 5,
+      "ATF": 4,
+      "SYC": 26,
+      "KIR": 1,
+      "MHL": 2,
+      "TTO": 16,
+      "GRD": 7,
+      "VCT": 6,
+      "BRB": 11,
+      "LCA": 11,
+      "DMA": 10,
+      "UMI": 8,
+      "MSR": 3,
+      "ATG": 8,
+      "KNA": 14,
+      "VIR": 3,
+      "BLM": 1,
+      "PRI": 1,
+      "AIA": 14,
+      "VGB": 1,
+      "JAM": 14,
+      "CYM": 1,
+      "BMU": 11,
+      "HMD": 1,
+      "SHN": 3,
+      "MUS": 16,
+      "COM": 3,
+      "STP": 2,
+      "CPV": 22,
+      "MLT": 68,
+      "JEY": 1,
+      "GGY": 1,
+      "IMN": 1,
+      "ALD": 11,
+      "FRO": 1,
+      "IOA": 2,
+      "IOT": 1,
+      "SGP": 5,
+      "NFK": 1,
+      "COK": 11,
+      "FJI": 5,
+      "TON": 5,
+      "WLF": 3,
+      "WSM": 11,
+      "SLB": 10,
+      "TUV": 1,
+      "MDV": 21,
+      "NRU": 14,
+      "FSM": 4,
+      "SGS": 1,
+      "FLK": 1,
+      "VUT": 6,
+      "NIU": 1,
+      "ASM": 5,
+      "PLW": 16,
+      "GUM": 1,
+      "MNP": 4,
+      "BHR": 5,
+      "CSI": 1,
+      "PGA": 1,
+      "CLP": 1,
+      "MAC": 1,
+      "ATC": 1
+    }
+  },
+  "admin2": {
+    "IND": {
+      "source": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/IND/ADM2/geoBoundaries-IND-ADM2_simplified.geojson",
+      "sourceYear": "2021",
+      "boundarySource": "Pathways Data Pvt. Ltd., lgdirectory.gov.in",
+      "license": "Open Data Commons Open Database License 1.0",
+      "licenseSource": "geonode.pathwaysdata.com/layers/geonode",
+      "sourceCount": 735,
+      "linkedCount": 733,
+      "unmatched": [
+        {
+          "id": "76128533B2782141712775",
+          "name": "DATA NOT AVAILABLE",
+          "candidateParents": []
+        },
+        {
+          "id": "76128533B41477629049356",
+          "name": "Lakshadweep",
+          "candidateParents": []
+        }
+      ],
+      "sha256": "d68db39cd3e2d0892af268e2b0454166368ce3b5b8a78fcda63069ec92a641db"
+    },
+    "USA": {
+      "source": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/USA/ADM2/geoBoundaries-USA-ADM2_simplified.geojson",
+      "sourceYear": "2018",
+      "boundarySource": "United States Census Bureau, MAF/TIGER Database",
+      "license": "Public Domain",
+      "licenseSource": "www.census.gov/programs-surveys/geography/technical-documentation/naming-convention/cartographic-boundary-file.html",
+      "sourceCount": 3233,
+      "linkedCount": 3121,
+      "unmatched": [
+        {
+          "id": "52423323B72611764841085",
+          "name": "Morovis",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B11153152222342",
+          "name": "San Lorenzo",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B1142335795557",
+          "name": "Florida",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B11408712561371",
+          "name": "Cidra",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B86132788198176",
+          "name": "Comerío",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B8139894881456",
+          "name": "Yabucoa",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B88446663762190",
+          "name": "Las Marías",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B17082300411624",
+          "name": "Corozal",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B13000193718373",
+          "name": "Wrangell",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B60583840273125",
+          "name": "Hormigueros",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B57121552581282",
+          "name": "Juncos",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B14067598441828",
+          "name": "Aleutians West",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B65711938596700",
+          "name": "Yauco",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B61278008297409",
+          "name": "Toa Baja",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B16848468403028",
+          "name": "Guayama",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B5700348428358",
+          "name": "Swains Island",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B2854744470595",
+          "name": "Western",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B11777472364014",
+          "name": "Bayamón",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B58893245125586",
+          "name": "Canóvanas",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B32764376391113",
+          "name": "Gurabo",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B79106599781981",
+          "name": "Guánica",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B74070322698639",
+          "name": "Quebradillas",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B30804513522660",
+          "name": "Moca",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B8068619404186",
+          "name": "Naranjito",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B81884314913913",
+          "name": "Sitka",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B82121365400499",
+          "name": "Hoonah-Angoon",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B33049838557264",
+          "name": "Rota",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B15402942481985",
+          "name": "Barranquitas",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B59988568496806",
+          "name": "Sabana Grande",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B91102328415682",
+          "name": "Maricao",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B28131645769529",
+          "name": "Ciales",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B39360840436508",
+          "name": "Villalba",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B63484657830280",
+          "name": "Aguadilla",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B72724897935672",
+          "name": "Aguas Buenas",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B5772281676312",
+          "name": "Luquillo",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B24944567676343",
+          "name": "Maverick",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B15729403870987",
+          "name": "Caguas",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B55471057171446",
+          "name": "Caddo",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B95001910303654",
+          "name": "Aransas",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B91072384884845",
+          "name": "Manatí",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B53991752457296",
+          "name": "Utuado",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B51894454867093",
+          "name": "Brevard",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B3277020886605",
+          "name": "Loíza",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B40146913346839",
+          "name": "Cayey",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B55530972166869",
+          "name": "District of Columbia",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B1226588316364",
+          "name": "Lajas",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B87258541323822",
+          "name": "Bristol",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B32289273643205",
+          "name": "Rose Island",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B32135121114798",
+          "name": "Jayuya",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B42234793142601",
+          "name": "Humacao",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B43736341835391",
+          "name": "Orocovis",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B42185126778068",
+          "name": "Washington",
+          "candidateParents": [
+            "Maryland",
+            "West Virginia"
+          ]
+        },
+        {
+          "id": "52423323B84341860753916",
+          "name": "Camuy",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B59045982564985",
+          "name": "Scioto",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B81098999696635",
+          "name": "Island",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B55438776297696",
+          "name": "Guaynabo",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B81395860012193",
+          "name": "Vieques",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B92327379026195",
+          "name": "Naguabo",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B18041062174834",
+          "name": "Peñuelas",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B9429339455263",
+          "name": "Rincón",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B77773616076355",
+          "name": "Las Piedras",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B31237535640697",
+          "name": "Aguada",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B92182718553781",
+          "name": "Añasco",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B15729416108881",
+          "name": "San Juan",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B40695299315200",
+          "name": "Isabela",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B67874562212910",
+          "name": "Río Grande",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B3757307003168",
+          "name": "Salinas",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B44939102873256",
+          "name": "San Sebastián",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B41088190294642",
+          "name": "San Germán",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B51190014897639",
+          "name": "Arecibo",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B93715825211285",
+          "name": "Manu'a",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B64374819566346",
+          "name": "Saipan",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B98554944088847",
+          "name": "Toa Alta",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B95364314409049",
+          "name": "St. Thomas",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B58805530467838",
+          "name": "Guam",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B66250868095677",
+          "name": "Juana Díaz",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B24006196223482",
+          "name": "Carolina",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B13112190165396",
+          "name": "Cataño",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B98587415300192",
+          "name": "Ceiba",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B45396051816333",
+          "name": "Coamo",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B10065184809144",
+          "name": "Culebra",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B49434157073126",
+          "name": "Tinian",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B52221590077134",
+          "name": "Guayanilla",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B37641528063122",
+          "name": "Vega Alta",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B33690071450754",
+          "name": "Lares",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B36058634620210",
+          "name": "Eastern",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B47905601981877",
+          "name": "Nantucket",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B33050228676147",
+          "name": "Talbot",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B37020317002794",
+          "name": "St. Croix",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B61620821136351",
+          "name": "Baltimore",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B51950353714831",
+          "name": "Ponce",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B18524543454126",
+          "name": "St. John",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B63825786634762",
+          "name": "Northampton",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B71326746759120",
+          "name": "Koochiching",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B84565222808084",
+          "name": "Northern Islands",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B48021062516164",
+          "name": "Adjuntas",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B13977400518801",
+          "name": "Mayagüez",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B30468560709175",
+          "name": "Aibonito",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B33793433125252",
+          "name": "Chowan",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B82031073374827",
+          "name": "Barnstable",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B53542655119676",
+          "name": "Cabo Rojo",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B69111161141403",
+          "name": "Santa Isabel",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B97779835384319",
+          "name": "Arroyo",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B46245109709528",
+          "name": "Maunabo",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B64463590012985",
+          "name": "Fajardo",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B42777689659233",
+          "name": "Vega Baja",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B55997906288289",
+          "name": "Hatillo",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B28169903287246",
+          "name": "Dorado",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B32786783590075",
+          "name": "Patillas",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B26167875661566",
+          "name": "Trujillo Alto",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B32782252789959",
+          "name": "San Juan",
+          "candidateParents": []
+        },
+        {
+          "id": "52423323B30821332153735",
+          "name": "Barceloneta",
+          "candidateParents": []
+        }
+      ],
+      "sha256": "16249e8d795aaded6a72910a8c72115a073814b25ee902d61ccc9a9490c6641a"
+    },
+    "RUS": {
+      "source": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/RUS/ADM2/geoBoundaries-RUS-ADM2_simplified.geojson",
+      "sourceYear": "2017",
+      "boundarySource": "OpenStreetMap, Wambacher",
+      "license": "Open Data Commons Open Database License 1.0",
+      "licenseSource": "www.openstreetmap.org/copyright",
+      "sourceCount": 2327,
+      "linkedCount": 2318,
+      "unmatched": [
+        {
+          "id": "50074027B75924608914452",
+          "name": "Yuzhno-Kurilsky District",
+          "candidateParents": []
+        },
+        {
+          "id": "50074027B69870482204976",
+          "name": "Petropavlovsk-Kamchatsky",
+          "candidateParents": []
+        },
+        {
+          "id": "50074027B18326506534636",
+          "name": "Kemsky District",
+          "candidateParents": []
+        },
+        {
+          "id": "50074027B679557218720",
+          "name": "Anadyr Urban Okrug",
+          "candidateParents": []
+        },
+        {
+          "id": "50074027B51159964054862",
+          "name": "городской округ Северодвин",
+          "candidateParents": []
+        },
+        {
+          "id": "50074027B47945657174327",
+          "name": "городской округ Сунжа",
+          "candidateParents": [
+            "Republic of Ingushetia",
+            "Chechen Republic"
+          ]
+        },
+        {
+          "id": "50074027B47678701169486",
+          "name": "Nikolayevsky District",
+          "candidateParents": []
+        },
+        {
+          "id": "50074027B34626679799477",
+          "name": "Alexandrovsk, Murmansk Oblast",
+          "candidateParents": []
+        },
+        {
+          "id": "50074027B21488641063420",
+          "name": "Varnensky District",
+          "candidateParents": []
+        }
+      ],
+      "sha256": "81dabf7930ff5e306e2423b586bcec14163fbd10481db6e49aab47273953b128"
+    }
+  },
+  "withheldDisputed": [
+    {
+      "name": "Autonomous Republic of Crimea",
+      "reason": "Disputed Ukraine/Russia assignment; omitted from unqualified Russian administration."
+    },
+    {
+      "name": "Sevastopol",
+      "reason": "Disputed Ukraine/Russia assignment; omitted from unqualified Russian administration."
+    }
+  ],
+  "limitations": [
+    "First-level source is maintained cartography, not a dated 2026 administrative survey.",
+    "District sources represent 2021 India, 2018 USA and 2017 Russia; newly formed units may be absent.",
+    "Parent links are spatial joins using an interior representative point. Unmatched records are withheld from drilldown, never assigned to the nearest state.",
+    "Historical regions use clearly fictional gameplay sectors, not modern administrative divisions.",
+    "City views share a national economy and building pool; no separate province economy or local population is implied."
+  ]
+}

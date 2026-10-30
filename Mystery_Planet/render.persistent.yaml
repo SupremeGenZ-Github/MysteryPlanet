@@ -1,0 +1,25 @@
+# LEGACY SQLITE ONLY: optional paid disk hosting. Leave DATABASE_URL unset.
+# For PostgreSQL use the default render.yaml; it requires no web-service disk.
+services:
+  - type: web
+    name: mystery-planet
+    runtime: node
+    plan: 0.5c-512mb
+    region: singapore
+    buildCommand: npm ci && npm run build
+    startCommand: npm start
+    healthCheckPath: /healthz
+    autoDeployTrigger: commit
+    disk:
+      name: mystery-planet-data
+      mountPath: /var/data
+      sizeGB: 20
+    envVars:
+      - key: NODE_VERSION
+        value: 24.22.1
+      - key: APP_MODE
+        value: persistent
+      - key: DATABASE_PATH
+        value: /var/data/geography.sqlite
+      - key: COOKIE_SECURE
+        value: "1"

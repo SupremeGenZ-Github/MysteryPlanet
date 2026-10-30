@@ -1,0 +1,4 @@
+MapillaryJS 4.1.2
+Source: https://github.com/mapillary/mapillary-js
+Distribution: npm mapillary-js
+License: MIT (see LICENSE).

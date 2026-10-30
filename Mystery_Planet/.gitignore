@@ -1,0 +1,40 @@
+# Node dependencies
+node_modules/
+
+# Local environment variables and credentials
+.env
+.env.*
+!.env.example
+
+# Runtime databases and backups
+var/
+raw/
+backups/
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+*.dump
+*.sql.gz
+
+# Logs and caches
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.cache/
+coverage/
+
+# Local editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Workspace hosting metadata
+.openai/
+
+# Keep package-lock.json, render.yaml, .node-version, public/data/
+# and public/vendor/ tracked: they are needed to deploy this app.

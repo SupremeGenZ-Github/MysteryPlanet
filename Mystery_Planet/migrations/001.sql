@@ -1,0 +1,18 @@
+PRAGMA journal_mode=WAL;
+CREATE TABLE IF NOT EXISTS places(id TEXT PRIMARY KEY,source_id TEXT,name TEXT NOT NULL,aliases TEXT NOT NULL,country TEXT,kind TEXT,admin_level INTEGER,feature TEXT,lat REAL,lon REAL,parent_key TEXT,admin_key TEXT,parent_id TEXT,timezone TEXT,modified TEXT,snapshot TEXT);
+CREATE INDEX IF NOT EXISTS place_country ON places(country,kind,id);
+CREATE INDEX IF NOT EXISTS place_name ON places(name COLLATE NOCASE);
+CREATE INDEX IF NOT EXISTS place_admin ON places(admin_key,kind);
+CREATE INDEX IF NOT EXISTS place_parent ON places(parent_id);
+CREATE TABLE IF NOT EXISTS imports(sha TEXT PRIMARY KEY,source TEXT,date TEXT,line INTEGER,finished INTEGER);
+CREATE TABLE IF NOT EXISTS progress(player TEXT PRIMARY KEY,data TEXT NOT NULL,updated TEXT NOT NULL);
+CREATE TABLE IF NOT EXISTS rounds(id TEXT PRIMARY KEY,player TEXT NOT NULL,answer TEXT NOT NULL,created INTEGER NOT NULL,hints INTEGER NOT NULL DEFAULT 1,finished INTEGER NOT NULL DEFAULT 0,result TEXT);
+CREATE VIRTUAL TABLE IF NOT EXISTS spatial USING rtree(rowid,minLon,maxLon,minLat,maxLat);
+CREATE TABLE IF NOT EXISTS sources(id TEXT PRIMARY KEY,name TEXT NOT NULL,url TEXT,license TEXT,snapshot_date TEXT,sha256 TEXT);
+CREATE TABLE IF NOT EXISTS relationships(place_id TEXT NOT NULL,related_id TEXT NOT NULL,relation TEXT NOT NULL,convention TEXT NOT NULL DEFAULT '',source_id TEXT,verified INTEGER NOT NULL DEFAULT 0,PRIMARY KEY(place_id,related_id,relation,convention));
+CREATE TABLE IF NOT EXISTS boundaries(id TEXT PRIMARY KEY,place_id TEXT,source_id TEXT,geometry_ref TEXT,admin_level INTEGER,status TEXT,claims_json TEXT);
+CREATE TABLE IF NOT EXISTS facts(id TEXT PRIMARY KEY,place_id TEXT NOT NULL,scope TEXT NOT NULL,text TEXT NOT NULL,source_id TEXT NOT NULL,verified INTEGER NOT NULL DEFAULT 0,valid_until TEXT);
+CREATE TABLE IF NOT EXISTS clues(id TEXT PRIMARY KEY,place_id TEXT NOT NULL,text TEXT NOT NULL,fact_ids TEXT NOT NULL,content_version TEXT NOT NULL,verified INTEGER NOT NULL DEFAULT 0);
+CREATE TABLE IF NOT EXISTS missing_data(id INTEGER PRIMARY KEY,place_id TEXT,issue TEXT NOT NULL,source_id TEXT,status TEXT NOT NULL DEFAULT 'open',note TEXT);
+
+CREATE TABLE IF NOT EXISTS reports(id TEXT PRIMARY KEY,data TEXT NOT NULL);

@@ -1,0 +1,26 @@
+{
+  "snapshot": "2026-10-29",
+  "countriesAndTerritories": 255,
+  "unMembers": 193,
+  "unObservers": 2,
+  "boundaryFeatures": 266,
+  "regions": 10759,
+  "regionLevels": {
+    "1": 4587,
+    "2": 6172
+  },
+  "unresolvedBoundaryParents": 11,
+  "cities": 241,
+  "playableCountries": 244,
+  "playableCities": 241,
+  "imageryVerified": 0,
+  "fullGazetteerHosted": false,
+  "notes": [
+    "The hosted edition includes the country roster, source snapshot administrative boundaries, and a capital-city starter corpus. It does not include every city.",
+    "Full GeoNames import runs separately against a persistent database; the source project includes the complete, unfiltered importer and paginated API.",
+    "Natural Earth first-level geography is a maintained cartographic snapshot and contains dated divisions. It is not a certified current administrative register.",
+    "Second-level coverage in this release is India (2021), USA (2018), Russia (2017). Other levels remain a recorded gap.",
+    "Boundary-source IDs and GeoNames admin paths are separate; unmatched links are labelled, never guessed.",
+    "No Mapillary imagery has been verified without a configured client token. Mapillary imagery availability is checked at play time."
+  ]
+}

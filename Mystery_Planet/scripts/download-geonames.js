@@ -1,0 +1,15 @@
+import {mkdir,rename,writeFile} from 'node:fs/promises';
+import {createWriteStream,createReadStream} from 'node:fs';
+import {pipeline} from 'node:stream/promises';
+import {Readable} from 'node:stream';
+import {createHash} from 'node:crypto';
+import {resolve,dirname} from 'node:path';
+import {config} from '../config.js';
+const dest=resolve(process.argv[2]||resolve(dirname(config.dbPath),'sources/allCountries.zip'));
+await mkdir(dirname(dest),{recursive:true});
+const url='https://download.geonames.org/export/dump/allCountries.zip',res=await fetch(url);
+if(!res.ok||!res.body)throw Error('Source download failed: '+res.status);
+await pipeline(Readable.fromWeb(res.body),createWriteStream(dest+'.download'));
+const hash=createHash('sha256');for await(const chunk of createReadStream(dest+'.download'))hash.update(chunk);
+await rename(dest+'.download',dest);const report={url,downloaded_at:new Date().toISOString(),sha256:hash.digest('hex'),license:'CC BY 4.0'};
+await writeFile(dest+'.metadata.json',JSON.stringify(report,null,2));console.log('Source saved:',dest);

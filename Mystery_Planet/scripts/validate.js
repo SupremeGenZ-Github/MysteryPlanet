@@ -1,0 +1,3 @@
+import {existsSync,readFileSync} from 'node:fs';
+for(const f of ['public/index.html','public/app.js','public/core.js','public/style.css','public/data/countries.json','public/data/regions.json','public/data/cities.json','public/data/world.geojson','server.js','config.js','store.js','migrations/001-postgres.sql','render.yaml','public/guess-map.js','public/vendor/mapillary/mapillary.js','public/vendor/mapillary/mapillary.css','public/vendor/mapillary/LICENSE'])if(!existsSync(f))throw Error('Missing '+f);
+const c=JSON.parse(readFileSync('public/data/coverage.json'));if(c.unMembers!==193||c.unObservers!==2||c.cities<200)throw Error('Starter coverage validation failed');console.log('HTML, CSS, JavaScript and deployment files validated.');

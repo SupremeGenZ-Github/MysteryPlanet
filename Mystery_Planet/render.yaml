@@ -1,0 +1,22 @@
+# Uses YOUR EXISTING Render Postgres database. This does not create a second database.
+services:
+  - type: web
+    name: mystery-planet
+    runtime: node
+    plan: free
+    region: singapore
+    buildCommand: npm ci && npm run build
+    startCommand: npm start
+    healthCheckPath: /healthz
+    autoDeployTrigger: commit
+    envVars:
+      - key: NODE_VERSION
+        value: 24.22.1
+      - key: APP_MODE
+        value: postgres
+      - key: DATABASE_URL
+        sync: false
+      - key: COOKIE_SECURE
+        value: "1"
+      - key: MAPILLARY_CLIENT_TOKEN
+        sync: false
